@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "data-pipeline-generator"
+  site-url: "https://josephmachado.github.io/data-pipeline-generator"
+  description: "Data pipeline code generator for portfolio projects"
+  repo-branch: main
+  repo-url: "https://github.com/josephmachado/data-pipeline-generator"
