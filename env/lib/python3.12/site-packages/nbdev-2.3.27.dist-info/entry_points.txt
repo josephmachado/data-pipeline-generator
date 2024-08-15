@@ -1,0 +1,34 @@
+[console_scripts]
+nbdev_bump_version = nbdev.release:nbdev_bump_version
+nbdev_changelog = nbdev.release:changelog
+nbdev_clean = nbdev.clean:nbdev_clean
+nbdev_conda = nbdev.release:release_conda
+nbdev_create_config = nbdev.config:nbdev_create_config
+nbdev_docs = nbdev.quarto:nbdev_docs
+nbdev_export = nbdev.doclinks:nbdev_export
+nbdev_filter = nbdev.cli:nbdev_filter
+nbdev_fix = nbdev.merge:nbdev_fix
+nbdev_help = nbdev.cli:chelp
+nbdev_install = nbdev.quarto:install
+nbdev_install_hooks = nbdev.clean:nbdev_install_hooks
+nbdev_install_quarto = nbdev.quarto:install_quarto
+nbdev_merge = nbdev.merge:nbdev_merge
+nbdev_migrate = nbdev.migrate:nbdev_migrate
+nbdev_new = nbdev.cli:nbdev_new
+nbdev_prepare = nbdev.quarto:prepare
+nbdev_preview = nbdev.quarto:nbdev_preview
+nbdev_proc_nbs = nbdev.quarto:nbdev_proc_nbs
+nbdev_pypi = nbdev.release:release_pypi
+nbdev_readme = nbdev.quarto:nbdev_readme
+nbdev_release_both = nbdev.release:release_both
+nbdev_release_gh = nbdev.release:release_gh
+nbdev_release_git = nbdev.release:release_git
+nbdev_requirements = nbdev.release:write_requirements
+nbdev_sidebar = nbdev.quarto:nbdev_sidebar
+nbdev_test = nbdev.test:nbdev_test
+nbdev_trust = nbdev.clean:nbdev_trust
+nbdev_update = nbdev.sync:nbdev_update
+nbdev_update_license = nbdev.cli:nbdev_update_license
+
+[nbdev]
+nbdev = nbdev._modidx:d

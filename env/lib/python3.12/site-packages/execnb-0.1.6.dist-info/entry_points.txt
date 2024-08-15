@@ -1,0 +1,5 @@
+[console_scripts]
+exec_nb = execnb.shell:exec_nb
+
+[nbdev]
+execnb = execnb._modidx:d
